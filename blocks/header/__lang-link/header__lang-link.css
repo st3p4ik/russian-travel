@@ -12,7 +12,7 @@
   margin: 0 0 0 18px;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:424px) {
   .header__lang-link {
     font-style: normal;
     font-weight: 400;
