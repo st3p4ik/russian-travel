@@ -1,0 +1,16 @@
+.footer__info {
+  margin: 0;
+  padding: 0;
+}
+
+.footer__info {
+  display: inline;
+}
+
+@media screen and (max-width:768px) {
+  .footer__info {
+    max-width: 100px;
+    display: block;
+    margin: 0 0 0 16px;
+  }
+}
