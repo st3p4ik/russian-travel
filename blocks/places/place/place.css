@@ -6,29 +6,23 @@
   row-gap: 48px;
 }
 
-
-
-
-
-@media screen and (max-width:1280px) {
+@media screen and (max-width:1279px) {
   .place {
     grid-template-columns: 440px 456px;
     column-gap: 32px;
-
   }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1023px) {
   .place {
     grid-template-columns: 340px 352px;
     grid-template-rows: auto auto;
     margin: 0 0 73px;
     column-gap: 28px;
-    row-gap: 48px;
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
   .place {
     grid-template-columns: 1fr;
     margin: 0 0 50px;

@@ -1,5 +1,5 @@
 .lead__image {
   margin-bottom: 8px;
   object-fit: cover;
-  width: 100%;
+  max-width: 100%;
 }

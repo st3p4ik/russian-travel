@@ -12,10 +12,6 @@
   margin: 0 0 0 18px;
 }
 
-.header__lang-link:active {
-  text-decoration: underline;
-}
-
 @media screen and (max-width:425px) {
   .header__lang-link {
     font-style: normal;

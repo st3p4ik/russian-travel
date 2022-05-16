@@ -6,14 +6,33 @@
   line-height: 76px;
   text-align: center;
   color: #FFFFFF;
-  margin: 0 auto 32px;
+  margin: 245px auto 32px;
+}
+
+@media screen and (max-width:1279px) {
+  .cover__title{
+    margin: 195px auto 32px;
+  }
+}
+
+@media screen and (max-width:1023px) {
+  .cover__title{
+    margin: 115px auto 32px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .cover__title{
+    margin: 95px auto 24px;
+    font-size: 48px;
+    line-height: 54px;
+  }
 }
 
 @media screen and (max-width:425px) {
-  .cover__title {
-    max-width: 260px;
+  .cover__title{
+    margin: 33px auto 16px;
     font-size: 32px;
     line-height: 35px;
-    margin: 0 auto 16px;
   }
 }
